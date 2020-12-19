@@ -1,2 +1,7 @@
 ## Please Read This
-*If you rehost this site, Please credit me thanks*
+*This site was created and coded by Aqua, If you rehost the site please add credit's*
+
+## Coming Soon
+```
+Custom Script's: You can now easily create your own script's and use them on our site!
+```
