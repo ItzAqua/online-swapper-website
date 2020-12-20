@@ -1,0 +1,24 @@
+{
+    "VersionCheck": [
+        {"build": "++Fortnite+Release-15.10-CL-14937640-Windows"}
+    ],
+
+    "social": [
+        {"discord": "https://discord.gg/tEVQA8zHNZ"}
+    ],
+
+    "downtime": [
+        {"active": "false"},
+        {"content": "null"}
+    ],
+
+    "announcements": [
+        {"active": "true"},
+        {"content": "We have added load's of item's, Check it out on our site: https://link-to.net/188962/g4swapper"}
+    ],
+
+    "update": [
+        {"version": "v1.4"},
+        {"downloadLink": "https://link-to.net/188962/g4client"}
+    ]
+}

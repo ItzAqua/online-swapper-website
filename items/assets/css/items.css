@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a:visited {
+    color: #182538;
+}
+
+a:link {
+    color: #182538;
+}
+
+::-moz-selection {
+    color: white;
+    background: #535FD7;
+}
+  
+::selection {
+    color: white;
+    background: #535FD7;
+}
+
+html, body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #202D3F;
+    font-family: arial;
+    cursor:url(cursor.png), auto;
+}
+
+.main{
+    margin: 2%;
+}
+   
+.header{
+    transition: .5s;
+    overflow: hidden;
+    background-color:#182538;
+    padding: 10px 5px;
+    box-shadow: 2px 2px 2px #535FD7;
+}
+
+.header:hover{
+    transition: .5s;
+    box-shadow: 3px 3px 3px #535FD7;
+}
+
+h2{
+    color: #535FD7;
+    float: left;
+    font-size: 30px;
+}
+
+.item{
+    background-color: #182538;
+    width: 18%;
+    display: inline-block;
+    border-radius: 6px; 
+    margin: 30px;
+    transition: .8s;
+}
+
+.centeredItem{
+    background-color: #182538;
+    width: 20%;
+    display: inline-block;
+    border-radius: 0px; 
+    margin-left: 40%;
+    margin-top: 8%;
+    transition: .8s;
+}
+
+.item:hover{
+    box-shadow: 6px 6px 60px #535FD7;
+    transition: .8s;
+}
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+   
+.title{
+    color: #535FD7;
+    text-align: center;
+    padding: 6px;
+}
+   
+h1{
+    font-size: 20px;
+}
+   
+.Description{
+    color: #535FD7;
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.optionsBtn{
+    width: 40%;
+    background-color: #535FD7;
+    transition: .8s;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.optionsBtn:hover{
+    box-shadow: 2px 2px 30px #535FD7;
+    background-color: #535FD7;
+    color: white;
+    transition: .8s;
+    cursor:url(cursor.png), auto;
+    border-radius: 30px;
+}
+
+.headerBtn{
+    background-color: #535FD7;
+    transition: .8s;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.headerBtn:hover{
+    box-shadow: 2px 2px 30px #535FD7;
+    background-color: #535FD7;
+    color: white;
+    transition: .8s;
+    cursor:url(cursor.png), auto;
+    border-radius: 30px;
+}
+
+.header-right {
+    float: right;
+}
