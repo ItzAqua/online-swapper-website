@@ -1,9 +1,12 @@
+<!-- This site was coded by G4 Abstract-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
    <link rel="icon" href="items/assets/images/g4-logo.png"  type="image/icon type">
    <link rel="stylesheet" type="text/css" href="items/assets/css/main.css">
+   <link rel="stylesheet" type="text/css" href="items/assets/css/popup.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>G4 Swapper | Home</title>
    <div class="header">
@@ -18,6 +21,15 @@
    </div>
 </head>
 <body>
+   <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Important Announcement</h3>
+        <br>
+        <p>I have decided to transfer ownership of Online Swapper to Wslt, This mean's any site update's will be done by Wslt.</p>
+      </div>
+   </div>
+
    <div class="centeredItem">
       <div class="image">
          <img src="items/assets/images/fishstick.png">
@@ -42,3 +54,21 @@
    </div>
 </body>
 </html>
+
+<script>
+   var modal = document.getElementById("myModal");
+   
+   var span = document.getElementsByClassName("close")[0];
+   
+   span.onclick = function() {
+     modal.style.display = "none";
+   }
+
+   window.onclick = function(event) {
+     if (event.target == modal) {
+       modal.style.display = "none";
+     }
+   }
+
+   window.onload(modal.style.display = "block");
+   </script>
