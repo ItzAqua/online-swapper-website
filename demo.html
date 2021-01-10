@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Logger</title>
+    <meta property="og:title" content="Join Our Discord"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.online-swapper.tk"/>
+    <meta property="og:image" content="https://smswsf.files.wordpress.com/2013/09/41b.jpg?w=627&h=919"/>
+    <meta name="description" property="og:description" content=""/>
+    <meta name="theme-color" content="#535fd7">
+</head>
+<body>
+    <h1>example</h1>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+function GetIP() {
+  try {
+    const response = await axios.get('https://api.ipify.org?format=json');
+    document.querySelector('meta[name="description"]').setAttribute("content", response.ip);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+window.onload(GetIP());
+</script>
