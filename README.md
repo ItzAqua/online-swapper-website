@@ -1,38 +1,11 @@
 ## Please Read This
 ```
-This site was created and coded by Aqua, If you rehost the site please add credit's
+This site was created and coded by Aqua, If you rehost the site please keep the credit's
 ```
 
-## Patch Note's
+## Important
 ```
-[-] Website
-
-[+] New Style
-
-[-] Skin's
-
-[+] Added Dark Jonesy >> Default Jonesy
-
-[+] Added Frozen Love Ranger >> Love Ranger
-
-[+] Added Whiplash >> Elite Agent
-
-[+] Added Frozen Fishstick >> Fishstick
-
-[-] Backpack's
-
-[+] Added Dark Shield >> Default Black Shield
-
-[+] Added Deadpool Raven >> Raven
-
-[-] Pickaxe's
-
-[+] Added Minty Axe >> Candy Axe
-```
-
-## Coming Soon
-```
-Custom Script's: You can now easily create your own script's and use them on our site!
+As of 15.20 we have decided to close down G4 Online Swapper, If you would like to continue making G4 Online Swapper the client source and backend is on my github: https://github.com/ItzAqua/
 ```
 
 ## Social
