@@ -1,14 +1,8 @@
-## Please Read This
+## Information
 ```
-This site was created and coded by Aqua, If you rehost the site please keep the credit's
+Online Swapper is back soon and better than ever! join our discord for more information
 ```
-
-## Important
-```
-As of 15.20 we have decided to close down G4 Online Swapper, If you would like to continue making G4 Online Swapper the client source and backend is on my github: https://github.com/ItzAqua/
-```
-
 ## Social
 ```
-Discord: https://discord.gg/tEVQA8zHNZ
+Discord: https://discord.gg/8FBT6QU4gt
 ```
